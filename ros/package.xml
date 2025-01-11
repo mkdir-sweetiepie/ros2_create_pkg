@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>%(package)s</name>
+  <version>0.1.0</version>
+  <description>
+
+     description
+
+  </description>
+  <maintainer email="hong091788@naver.com">hyeon</maintainer>
+  <author>hyeon</author>
+  <license>Apache-2.0</license>
+  
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  
+  %(depends)s
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
